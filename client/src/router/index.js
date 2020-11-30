@@ -16,6 +16,9 @@ const routes = [
   {path: "/",name: "Home",component: Home,
     meta: { requiresAdmin: false, requiresLogin: false }
   },
+  {path: "",name: "Home",component: Home,
+    meta: { requiresAdmin: false, requiresLogin: false }
+  },
   {path: "/login",name: "Login",component: Login,
     meta: { requiresAdmin: false, requiresLogin: false }
   },
