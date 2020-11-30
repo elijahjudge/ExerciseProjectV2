@@ -3,4 +3,4 @@
 2020 web programming exercise project
 
 Live Server:
-https://elijahjudge.github.io/ExerciseProject/
+https://elijahjudge.github.io/ExerciseProjectV2/
