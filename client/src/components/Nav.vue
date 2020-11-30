@@ -29,7 +29,7 @@
       <div class="navbar-start">
 
         <router-link to="/" class="navbar-item hom">Home</router-link>
-        <router-link to="/about" class="navbar-item hom">Inspiration</router-link>
+        <router-link to="/inspiration" class="navbar-item hom">Inspiration</router-link>
         <router-link to="/profile" class="navbar-item">Profile</router-link>       
         <router-link to="/schedule" class="navbar-item">My-Schedule</router-link>
 
