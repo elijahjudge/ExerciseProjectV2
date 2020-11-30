@@ -1,4 +1,6 @@
-# ExerciseProjectV2
-Exercise Project for Web Programming 2020
+# ExerciseProject
 
-test
+2020 web programming exercise project
+
+Live Server:
+https://elijahjudge.github.io/ExerciseProject/

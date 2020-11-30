@@ -1,0 +1,27 @@
+{
+  "name": "exerciseproject",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "index.js",
+  "engines": {
+    "node": "12.19.0"
+  },
+  "scripts": {
+    "dev": "nodemon --watch server server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elijahjudge/ExerciseProject.git"
+  },
+  "homepage": "https://github.com/elijahjudge/ExerciseProject",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "bcrypt": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
