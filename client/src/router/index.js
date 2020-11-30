@@ -7,6 +7,7 @@ import Register from "../views/Register.vue";
 import Dashboard from "../views/Dashboard.vue";
 import Schedule from "../views/Schedule.vue";
 import Profile from "../views/Profile.vue";
+import About from "../views/About.vue"
 import { context } from "../models/context";
 
 Vue.use(VueRouter);
@@ -30,9 +31,7 @@ const routes = [
   {path: "/profile",name: "Profile",component: Profile,
     meta: { requiresAdmin: false, requiresLogin: true }
   },
-  {path: "/about",name: "About",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  {path: "/about",name: "About",   component: About, 
     meta: { requiresAdmin: false, requiresLogin: false }
   }
 ];
