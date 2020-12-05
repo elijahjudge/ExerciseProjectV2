@@ -32,6 +32,7 @@
         <router-link to="/inspiration" class="navbar-item hom">Inspiration</router-link>
         <router-link to="/profile" class="navbar-item">Profile</router-link>       
         <router-link to="/schedule" class="navbar-item">My-Schedule</router-link>
+        <router-link to="/exercisefinder" class="navbar-item">ExerciseFinder(final)</router-link>
 
         <router-link
           to="/dashboard"
@@ -39,6 +40,8 @@
           class="navbar-item"
           >Dashboard</router-link
         >
+
+        
       </div>
 
       <div class="navbar-end">

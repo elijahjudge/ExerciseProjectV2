@@ -8,6 +8,8 @@ import Dashboard from "../views/Dashboard.vue";
 import Schedule from "../views/Schedule.vue";
 import Profile from "../views/Profile.vue";
 import Inspiration from "../views/Inspiration.vue"
+import ExerciseFinder from "../views/ExerciseFinder.vue"
+
 import { context } from "../models/context";
 
 Vue.use(VueRouter);
@@ -35,6 +37,9 @@ const routes = [
     meta: { requiresAdmin: false, requiresLogin: true }
   },
   {path: "/inspiration",name: "Inspiration",   component: Inspiration, 
+    meta: { requiresAdmin: false, requiresLogin: false }
+  },
+  {path: "/exercisefinder",name: "exercisefinder",   component: ExerciseFinder, 
     meta: { requiresAdmin: false, requiresLogin: false }
   }
 ];

@@ -9,7 +9,9 @@ import "@fortawesome/fontawesome-free/css/all.css";
 Vue.use(Buefy, {
   defaultIconComponent: "vue-fontawesome",
   defaultIconPack: "fas"
-});
+},
+);
+
 
 Vue.config.productionTip = false;
 
